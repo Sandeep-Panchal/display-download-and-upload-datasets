@@ -1,0 +1,26 @@
+body {
+    background: whitesmoke;
+    font-family: nunito;
+}
+
+.page-title {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 25px;
+}
+
+.all-content {
+    padding: 30px 30px 30px 30px;
+}
+
+.upload-class {
+    padding: 30px 30px 0px 500px;
+}
+
+.input-group {
+    padding: 20px 20px 20px 0px;
+}
+
+.display-files {
+    padding: 20px 20px 20px 40px;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+
+<head>
+<title> Call API to connect to S3 Bucket. </title>
+</head>
+
+<body style = 'background-image: url(https://www.xmple.com/wallpaper/solid-color-one-colour-single-plain-orange-1280x720-c-f0cbab-f-24.svg)'>
+<h1 style = 'background-color: orange; text-align:center'> API Call </h1>
+
+
+
+
+
+<div class="allcontent">
+    <ul>
+        {% for d in contents %}
+          <li>
+              {{ d }}
+            <!-- <a href="/download/{{d}}"> {{ d }} </a> -->
+          </li>
+        {% endfor %}
+    </ul>
+</div>
+
+<!-- <p style="font-size:105%">Call API to connect to S3 Bucket.</p> -->
+
+<!-- <form action = "https://8nrsxhbjqa.execute-api.ap-south-1.amazonaws.com/sample-api-deploy/sample-api-test-s3/details.csv" method="get">
+<input type = 'submit' class = 'btn-info' value = 'Predict'>
+
+<form action = "https://8nrsxhbjqa.execute-api.ap-south-1.amazonaws.com/sample-api-deploy/sample-api-test-s3/details.csv" method="get">
+<input type = 'submit' class = 'btn-info' value = 'Predict'>
+
+<br>
+<hr> -->
+
+<!-- <ul>
+    <li>{{data.key}}</li>
+</ul> -->
+
+<!-- <div class="card">
+    <h1>Data Sets</h1>
+    <p class="dataset">{{data.key}} <button>Show Data</button></p>
+    <p><button>Show Data</button></p>
+  </div> -->
+
+<!-- <form action = "{{url_for('upload_file')}}" method = "POST" enctype = "multipart/form-data"> -->
+	<!-- <input type = "file" name = "file" /> -->
+    <!-- <input type = "submit"/> -->
+<!-- </form>  -->
+
+<!-- <form action = "{{url_for('display_files')}}" method = "GET" enctype = "multipart/form-data">
+    <input type = "Submit"/>
+</form>  -->
+<!-- <input type = "file" name = "file" /> -->
+<!-- <input type = "submit"/> -->
+<!-- <button onclick="myFunction()">Upload</button>
+
+<script>
+    function myFunction() {
+      fetch('https://8nrsxhbjqa.execute-api.ap-south-1.amazonaws.com/sample-api-deploy/sample-api-test-s3/details.csv')
+      .then(res => res.json())
+      .then(o => console.log(o))
+      .catch(err => console.log(err))
+    }
+    </script> -->
+
+</body>
+</html>
