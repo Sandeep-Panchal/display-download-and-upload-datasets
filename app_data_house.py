@@ -3,9 +3,11 @@ from werkzeug.utils import secure_filename
 import pandas as pd
 import boto3
 
+# Note: I have deleted the credentials file. You should have your own credentials file
 # import the data that has secret access key and security key for s3 bucket
 df_keys = pd.read_csv('new_user_credentials.csv')
 
+# below access_key_id ad secret_access_key throws error as I have delted the credentials file.
 # getting access key id and secret access key
 access_key_id = df_keys['Access key ID'][0]
 secret_access_key = df_keys['Secret access key'][0]
